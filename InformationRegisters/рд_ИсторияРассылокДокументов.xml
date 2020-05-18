@@ -280,11 +280,11 @@
 			</Attribute>
 			<Dimension uuid="3ccb1b20-a7f9-4aa9-ac3f-67e5d4d84cd5">
 				<Properties>
-					<Name>ПриказИдентификатор</Name>
+					<Name>ДокументИдентификатор</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Приказ идентификатор</v8:content>
+							<v8:content>Документ идентификатор</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

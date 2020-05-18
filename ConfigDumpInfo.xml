@@ -5,7 +5,7 @@
 			<Metadata name="Catalog.ИдентификаторыОбъектовМетаданных.Attribute.ПолноеИмя" id="11b7bbf2-57a6-43da-8f5b-373adcf1d6a4"/>
 		</Metadata>
 		<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты" id="b975ae29-7c13-4455-bdac-c4509696c90c" configVersion="ccdf7c173196ee988c971c2376c3ebe53e4025a5"/>
-		<Metadata name="Catalog.рд_СценарийРассылкиДокументов" id="d7f55251-de86-4c53-b55f-cf583092b06d" configVersion="c48688adb8e10c6f82230dd6b5a539c09913ab00">
+		<Metadata name="Catalog.рд_СценарийРассылкиДокументов" id="d7f55251-de86-4c53-b55f-cf583092b06d" configVersion="56679566acbfa55a3ca6bbc41839ad0e73b838eb">
 			<Metadata name="Catalog.рд_СценарийРассылкиДокументов.Attribute.АдресОтвета" id="0a0f87ac-1fe3-4f4e-9e9c-a55fbfdf7da7"/>
 			<Metadata name="Catalog.рд_СценарийРассылкиДокументов.Attribute.Формат" id="154f5204-f048-464a-9b29-99798571fc71"/>
 			<Metadata name="Catalog.рд_СценарийРассылкиДокументов.Attribute.МакетПечати" id="1dff02fe-4983-4e5e-a93d-521f18568bde"/>
@@ -13,21 +13,22 @@
 			<Metadata name="Catalog.рд_СценарийРассылкиДокументов.Attribute.УчетнаяЗаписьПочты" id="280d0fd0-7ddd-4482-9401-0192ca3062fd"/>
 			<Metadata name="Catalog.рд_СценарийРассылкиДокументов.Attribute.РеквизитАдресации" id="38eaf564-065d-48de-af09-7ffed82c1531"/>
 			<Metadata name="Catalog.рд_СценарийРассылкиДокументов.TabularSection.ПолучателиКопийОтправлений" id="5365bf30-c64d-49b4-86f3-4633bb26f352"/>
+			<Metadata name="Catalog.рд_СценарийРассылкиДокументов.Attribute.Приоритет" id="55128b2e-5711-4ae8-8b6a-41d940e7b8ac"/>
 			<Metadata name="Catalog.рд_СценарийРассылкиДокументов.Attribute.ОбъектПечати" id="5543386d-066c-455d-a0c2-7acaa6018a4e"/>
 			<Metadata name="Catalog.рд_СценарийРассылкиДокументов.Attribute.ШаблонСообщения" id="c22d9d1c-f552-4865-8ee2-55a4b646f111"/>
 			<Metadata name="Catalog.рд_СценарийРассылкиДокументов.Attribute.ТемаСообщения" id="f71026fd-da2d-4694-9251-844a540f0d3e"/>
 			<Metadata name="Catalog.рд_СценарийРассылкиДокументов.Attribute.Активно" id="fb9847fb-967f-45c3-ab32-1c3924b05fea"/>
 		</Metadata>
 		<Metadata name="Catalog.рд_СценарийРассылкиДокументов.Form.ФормаЭлемента" id="edeeccbf-6487-4e13-bd16-2e8a2d40954a" configVersion="4e6d8a9dffbd4fb130d21f64652e25f6c278b926"/>
-		<Metadata name="Catalog.рд_СценарийРассылкиДокументов.Form.ФормаЭлемента.Form" id="edeeccbf-6487-4e13-bd16-2e8a2d40954a.0" configVersion="f99d2a1ed579642015197905015963816251ab2d"/>
-		<Metadata name="Configuration.РассылкаДокументов" id="cf06b0a5-683d-4cc5-b1c5-c55245882044" configVersion="dd96d5ec675a78a688fd3d9235bf8fae729234a0"/>
+		<Metadata name="Catalog.рд_СценарийРассылкиДокументов.Form.ФормаЭлемента.Form" id="edeeccbf-6487-4e13-bd16-2e8a2d40954a.0" configVersion="db8b3217868e3259902dcc4eec6f50cf0a7d1478"/>
+		<Metadata name="Configuration.РассылкаДокументов" id="cf06b0a5-683d-4cc5-b1c5-c55245882044" configVersion="0149e25c19b1fd2fe0127cd99f610898c478561e"/>
 		<Metadata name="DataProcessor.рд_ОтправитьСообщение" id="5bdba3bf-ca3b-4053-bc7e-066022880681" configVersion="00dc32b6a1d8d05d5d84bafd8becf4c3f5a21a04"/>
-		<Metadata name="DataProcessor.рд_ОтправитьСообщение.ObjectModule" id="5bdba3bf-ca3b-4053-bc7e-066022880681.0" configVersion="96a77d6d88c8be48fb813afc4bbbe6004cdd84e1"/>
+		<Metadata name="DataProcessor.рд_ОтправитьСообщение.ObjectModule" id="5bdba3bf-ca3b-4053-bc7e-066022880681.0" configVersion="3bd12ae3ad284e2513e7459dd75aab34f2ccecd8"/>
 		<Metadata name="Enum.ВидыДополнительныхОтчетовИОбработок" id="139fdf07-3a33-4fc9-9876-26390b23b9ef" configVersion="2dafef75c86f9f46b738aad54a203189fadb9aa3"/>
 		<Metadata name="Enum.ФорматыСохраненияОтчетов" id="a4ab2a2b-3fc2-4ed0-9b1e-e00e203e12c4" configVersion="dd2c2ad2822bc43e3d58e8fa42611ee946b07494"/>
-		<Metadata name="InformationRegister.рд_ИсторияРассылокДокументов" id="6cb72795-0772-44f0-b645-a8a983952a9f" configVersion="b55552b2145576a2e813d80441816d883fbc8766">
+		<Metadata name="InformationRegister.рд_ИсторияРассылокДокументов" id="6cb72795-0772-44f0-b645-a8a983952a9f" configVersion="6c2eaefeda8e4fc129dc161b1a482e07b7ae9477">
 			<Metadata name="InformationRegister.рд_ИсторияРассылокДокументов.Dimension.Сценарий" id="21c6ab24-171d-43f7-b9b0-479b9dc40846"/>
-			<Metadata name="InformationRegister.рд_ИсторияРассылокДокументов.Dimension.ПриказИдентификатор" id="3ccb1b20-a7f9-4aa9-ac3f-67e5d4d84cd5"/>
+			<Metadata name="InformationRegister.рд_ИсторияРассылокДокументов.Dimension.ДокументИдентификатор" id="3ccb1b20-a7f9-4aa9-ac3f-67e5d4d84cd5"/>
 			<Metadata name="InformationRegister.рд_ИсторияРассылокДокументов.Attribute.Кому" id="aa8b689f-5f4f-4cdb-9256-dd9ce23c5046"/>
 			<Metadata name="InformationRegister.рд_ИсторияРассылокДокументов.Attribute.Представление" id="b813d466-f80b-4a37-ab8c-cf0204e5b160"/>
 			<Metadata name="InformationRegister.рд_ИсторияРассылокДокументов.Attribute.ДатаОтправки" id="dc0422c3-4133-4b4f-b074-47d673c4c2ac"/>
@@ -38,7 +39,13 @@
 		<Metadata name="InformationRegister.рд_ИсторияРассылокДокументов.Form.ФормаЗаписи.Form" id="35e7abbf-e2e7-406a-b156-25816f84e3bf.0" configVersion="73c5330a04d9f4833118ffc02e66dcf9fe762cfc"/>
 		<Metadata name="InformationRegister.рд_ИсторияРассылокДокументов.Form.ФормаСписка" id="a334940b-6c80-425c-9d75-b393603d847d" configVersion="ce08cca566491bc41118dd44dc4c7eb666bf25c3"/>
 		<Metadata name="InformationRegister.рд_ИсторияРассылокДокументов.Form.ФормаСписка.Form" id="a334940b-6c80-425c-9d75-b393603d847d.0" configVersion="cba1d733e55d913336f180edda520864fc4e9f98"/>
-		<Metadata name="Language.Русский" id="17b836a1-a86f-43a0-893d-f3672c9e660e" configVersion="6543e12a2c955d5c00d34a0ab6f97125565e6536"/>
+		<Metadata name="InformationRegister.рд_ОчередьОтправки" id="121aeb5e-11de-4234-9ead-f5cc9fbfed8c" configVersion="dbfa94a4872a9044e1766ef280baf3f6e4d29aa6">
+			<Metadata name="InformationRegister.рд_ОчередьОтправки.Dimension.Сценарий" id="2aea7dae-e401-48f6-ab88-bfa3768877b8"/>
+			<Metadata name="InformationRegister.рд_ОчередьОтправки.Attribute.ДанныеДляОтправки" id="6ae82ab1-e801-4a5f-b003-8ff02e811ef3"/>
+			<Metadata name="InformationRegister.рд_ОчередьОтправки.Attribute.ДатаРегистрации" id="c69bf47e-494e-49ec-856a-9b4e2411f515"/>
+			<Metadata name="InformationRegister.рд_ОчередьОтправки.Dimension.ДокументИдентификатор" id="e1ecf052-1764-4331-96d1-1ec9ce000e9b"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="17b836a1-a86f-43a0-893d-f3672c9e660e" configVersion="e93de0fc4ac1ccb229e7c835eea12ffc30b4f6ee"/>
 		<Metadata name="Role.рд_ОсновнаяРоль" id="a0f6c00a-0125-4bcc-b951-60eb59541024" configVersion="491263f4015e7686ba3401ec783efb01765341cb"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
