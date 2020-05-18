@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<CheckBoxField name="Активно" id="32">
+			<DataPath>Объект.Активно</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="АктивноКонтекстноеМеню" id="33"/>
+			<ExtendedTooltip name="АктивноРасширеннаяПодсказка" id="34"/>
+		</CheckBoxField>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ОбъектПечати" id="7">
+			<DataPath>Объект.ОбъектПечати</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОбъектПечатиКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОбъектПечатиРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="МакетПечати" id="10">
+			<DataPath>Объект.МакетПечати</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ChoiceButton>true</ChoiceButton>
+			<ContextMenu name="МакетПечатиКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="МакетПечатиРасширеннаяПодсказка" id="12"/>
+			<Events>
+				<Event name="StartChoice">МакетПечатиНачалоВыбора</Event>
+			</Events>
+		</InputField>
+		<InputField name="Формат" id="53">
+			<DataPath>Объект.Формат</DataPath>
+			<ContextMenu name="ФорматКонтекстноеМеню" id="54"/>
+			<ExtendedTooltip name="ФорматРасширеннаяПодсказка" id="55"/>
+		</InputField>
+		<InputField name="РеквизитАдресации" id="44">
+			<DataPath>Объект.РеквизитАдресации</DataPath>
+			<ChoiceButton>true</ChoiceButton>
+			<ContextMenu name="РеквизитАдресацииКонтекстноеМеню" id="45"/>
+			<ExtendedTooltip name="РеквизитАдресацииРасширеннаяПодсказка" id="46"/>
+			<Events>
+				<Event name="StartChoice">РеквизитАдресацииНачалоВыбора</Event>
+			</Events>
+		</InputField>
+		<InputField name="АдресОтвета" id="47">
+			<DataPath>Объект.АдресОтвета</DataPath>
+			<ContextMenu name="АдресОтветаКонтекстноеМеню" id="48"/>
+			<ExtendedTooltip name="АдресОтветаРасширеннаяПодсказка" id="49"/>
+		</InputField>
+		<InputField name="ТемаСообщения" id="50">
+			<DataPath>Объект.ТемаСообщения</DataPath>
+			<ContextMenu name="ТемаСообщенияКонтекстноеМеню" id="51"/>
+			<ExtendedTooltip name="ТемаСообщенияРасширеннаяПодсказка" id="52"/>
+		</InputField>
+		<InputField name="ШаблонСообщения" id="38">
+			<DataPath>Объект.ШаблонСообщения</DataPath>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="ШаблонСообщенияКонтекстноеМеню" id="39"/>
+			<ExtendedTooltip name="ШаблонСообщенияРасширеннаяПодсказка" id="40"/>
+		</InputField>
+		<InputField name="УчетнаяЗаписьПочты" id="41">
+			<DataPath>Объект.УчетнаяЗаписьПочты</DataPath>
+			<ContextMenu name="УчетнаяЗаписьПочтыКонтекстноеМеню" id="42"/>
+			<ExtendedTooltip name="УчетнаяЗаписьПочтыРасширеннаяПодсказка" id="43"/>
+		</InputField>
+		<Table name="ПолучателиКопий" id="13">
+			<TitleLocation>Top</TitleLocation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ПолучателиКопийОтправлений</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ПолучателиКопийКонтекстноеМеню" id="14"/>
+			<AutoCommandBar name="ПолучателиКопийКоманднаяПанель" id="15"/>
+			<ExtendedTooltip name="ПолучателиКопийРасширеннаяПодсказка" id="16"/>
+			<SearchStringAddition name="ПолучателиКопийСтрокаПоиска" id="17">
+				<AdditionSource>
+					<Item>ПолучателиКопий</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПолучателиКопийСтрокаПоискаКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ПолучателиКопийСтрокаПоискаРасширеннаяПодсказка" id="19"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПолучателиКопийСостояниеПросмотра" id="20">
+				<AdditionSource>
+					<Item>ПолучателиКопий</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПолучателиКопийСостояниеПросмотраКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ПолучателиКопийСостояниеПросмотраРасширеннаяПодсказка" id="22"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПолучателиКопийУправлениеПоиском" id="23">
+				<AdditionSource>
+					<Item>ПолучателиКопий</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПолучателиКопийУправлениеПоискомКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ПолучателиКопийУправлениеПоискомРасширеннаяПодсказка" id="25"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ПолучателиКопийНомерСтроки" id="26">
+					<DataPath>Объект.ПолучателиКопийОтправлений.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПолучателиКопийНомерСтрокиКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ПолучателиКопийНомерСтрокиРасширеннаяПодсказка" id="28"/>
+				</LabelField>
+				<InputField name="ПолучателиКопийПолучатель" id="29">
+					<DataPath>Объект.ПолучателиКопийОтправлений.Получатель</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПолучателиКопийПолучательКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ПолучателиКопийПолучательРасширеннаяПодсказка" id="31"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.рд_СценарийРассылкиДокументов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
