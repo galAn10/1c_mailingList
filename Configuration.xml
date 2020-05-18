@@ -74,6 +74,7 @@
 			<Enum>ФорматыСохраненияОтчетов</Enum>
 			<DataProcessor>рд_ОтправитьСообщение</DataProcessor>
 			<InformationRegister>рд_ИсторияРассылокДокументов</InformationRegister>
+			<InformationRegister>рд_ОчередьОтправки</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
